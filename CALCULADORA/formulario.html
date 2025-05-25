@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/premium-vector/mathematics-doodle-illustration-with-colored-hand-drawn-style_288411-1179.jpg?w=2000');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            margin: 0;
+        }
+
+        .calculadora {
+            background-color: rgba(243, 10, 181, 0.9);
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(12, 12, 12, 0.3);
+            width: 300px;
+        }
+
+        input, select, button {
+            background-color: rgba(5, 176, 239, 0.9);
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form class="calculadora" action="procesar.php" method="POST">
+        <h2>CALCULADORA</h2>
+        <input type="number" name="num1" placeholder="Primer Número" required>
+        <input type="number" name="num2" placeholder="Segundo Número" required>
+        <select name="operacion">
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="division">División</option>
+        </select>
+        <button type="submit" name="Calcular">CALCULAR</button>
+    </form>
+</body>
+</html>
