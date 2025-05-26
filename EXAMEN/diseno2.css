@@ -1,0 +1,14 @@
+body {
+    background: url("https://th.bing.com/th/id/OIP.Dpn9sH7u49Ss0fCedbxvHAHaE8?rs=1&pid=ImgDetMain") no-repeat;
+    /* es para poner imagen desde internet */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f8f8fa;
+    text-align: justify; /* es para justificar el texto y aparezca ordenado */
+    margin: 20px; /* es opcional para la imagen */
+    border: 2px solid #e9e9eb; /* es el borde para el texto*/
+    border-radius: 10px; /* es para el borde aparexca redondeado */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(237, 3, 3, 0.8); /* fondo semi transparente */
+}

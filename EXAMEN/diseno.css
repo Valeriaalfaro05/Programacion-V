@@ -1,0 +1,53 @@
+/* ESTILO PARA LA IMAGEN DE FONDO */
+body {
+    background: url("https://files.merca20.com/uploads/2017/12/Cine-1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f2f2f4;
+    text-align: center;
+}
+
+/* CENTRAR EL FORMULARIO */
+form {
+    background-color: rgba(232, 8, 8, 0.6);
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* Estilo para las etiquetas y campos de entrada */
+label, input[type="submit"] {
+    display: block;
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+/* ESTILOS */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 18px;
+}
+
+/* ESTILO DE BOTONES */
+input[type="submit"] {
+    background-color: #222121;
+    color: #070ede;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Cambiar color al pasar el cursor sobre el botón */
+input[type="submit"]:hover {
+    background-color: #c0f307;
+}
