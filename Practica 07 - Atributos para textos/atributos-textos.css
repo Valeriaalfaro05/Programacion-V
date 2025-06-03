@@ -1,0 +1,77 @@
+body{
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    background-color:#292727;
+    color: white;
+    }
+
+#left{
+        text-align: left;
+    }
+
+#center{
+    text-align: center;
+}
+
+#right{
+    text-align: right;
+}
+
+#justify{
+    text-align: justify;
+}
+
+#texto-con-sangria{
+    text-indent: 9%;
+}
+
+#underline{
+    text-decoration: underline double;
+}
+
+#overline{
+    text-decoration: overline dashed;
+}
+
+#line-through{
+    text-decoration: line-through wavy red;
+}
+
+#capitalize{
+    text-transform: capitalize;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+
+#lowercase{
+    text-transform: lowercase;
+}
+
+#interlineado{
+    line-height: 1.9;
+}
+
+#interlineado2{
+    line-height: 25%;
+}
+
+#sombra{
+    text-shadow: 8px 4px 4px red;                                 /*propiedad text-shadow */
+    font-size: 3rem;                             /*se utiliza para agregar una sombra a los textos 
+                                                 -sombrah: posicion horizontal de la sombra (positivo: derecha, negativo: izquierda) 
+                                                 -sombrav: posicion vertical de la sombra (positivo: abajo, negativo: arriba)
+                                                 -difuminado:efecto de desenfoque.
+                                                 -color: color de la sombra.
+                                                 */
+}                                                
+
+#multiple {
+    text-shadow: 
+    0 1px 0 yellow,
+    1px 0 0 green,
+    1px 2px 1px blue,
+    2px 3px 2px gray,
+    3px 2px 2px orange;
+}
