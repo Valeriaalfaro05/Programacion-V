@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a1e9ad; /* Color de fondo negro */
+    color: #1d0b50; /* Color de texto blanco */
+    text-align: center;/* texto alineado en el centro */
+}
+/* HEX y RGB son equivalentes.
+
+HSL permite ajustar matiz, saturación y luminosidad fácilmente.
+
+RGBA y HSLA añaden transparencia mediante el canal alpha (0 = completamente transparente, 1 = completamente opaco).*/
+
+#colorHexa {
+    color: #cc3333;/* Código hexadecimal: 2 dígitos para rojo, 2 para verde, 2 para azul ...... ff es rojo, 57 es verde, 33 es azul */
+}
+
+#colorRGB {
+    color: rgb(255, 20, 20);/* 255 de rojo, 87 de verde, 51 de azul */
+}
+
+#colorHSL {
+    color: hsl(318, 100%, 60%);/* 12 grados de matiz, 100% de saturación, 60% de luminosidad */
+}
+
+#colorRGBA {
+    color: rgba(18, 192, 236, 0.836);/* 0.5 de opacidad */
+}
+
+#colorHSLA {
+    color: hsl(249, 52%, 64%);/* 0.5 de opacidad */
+}
