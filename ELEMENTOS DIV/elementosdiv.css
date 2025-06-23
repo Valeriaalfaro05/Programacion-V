@@ -1,0 +1,21 @@
+/* Estilo general para la primera caja */
+.caja {
+    width: 300px;              /* Ancho fijo */
+    height: 150px;             /* Alto fijo */
+    background-color: lightblue; /* Fondo celeste */
+    border: 2px solid navy;    /* Borde azul marino */
+    padding: 20px;             /* Espacio interno */
+    margin: 10px auto;         /* Margen automático para centrar */
+    box-shadow: 3px 3px 10px gray; /* Sombra */
+}
+
+/* Estilo para la caja con ID modeloCaja */
+#modeloCaja {
+    width: 300px;
+    height: 150px;
+    background-color: lightgreen;
+    border: 3px dashed green;    /* Borde punteado */
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+}
