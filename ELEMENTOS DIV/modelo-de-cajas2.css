@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-style: oblique;
+}
+
+
+div {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(185, 46, 198);
+}
+
+#modelocaja {
+    padding: 30PX 60PX 60PX 30PX;/*1.TOP 2.RING 3.BUTTON 4.RIGHT 
+    padding-left: 0PX;
+    padding-top: 0PX;
+    padding-right: 0PX;
+    padding-bottom: 0%;*/
+    border: 10px double rgb(209, 35, 70);/*tamano forma color*/
+}
